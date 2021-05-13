@@ -398,26 +398,6 @@
       br
       br
       |En la siguiente tabla puede observar cómo se estructura la escala de calificación, la cual comprende tres dimensiones con sus respectivas variables.
-    
-    //todo SOLUCIONAR PROBLEMA COLSPAN TABLA
-    
-    .tabla-a.color-acento-botones.mb-5 
-      table
-        caption Leyenda de la tabla
-        thead
-          tr
-            th.encabezado-oscuro Dimensiones
-            <th colspan="3" class="encabezado-claro"> Variables </th>
-        tbody
-          tr
-            td Celda 1
-            td Celda 2
-            td Celda 3
-            td Celda 4
-          tr
-            td Celda 1
-            <td colspan="1"> Celda 2 </td>
-            <td colspan="1"> Celda 2 </td>
     figure.mb-5
           img(src='@/assets/curso/img28.jpg', alt='Texto que describa la imagen')
     p.mb-3 Los dos (2) niveles de calificación comprenden dos procesos de agregación: 
@@ -960,25 +940,9 @@ export default {
       br
       |En la siguiente tabla puede observar cómo se estructura la escala de calificación, la cual comprende tres dimensiones con sus respectivas variables.
     
-    //todo SOLUCIONAR PROBLEMA COLSPAN TABLA
-    
-    .tabla-a.color-acento-botones.mb-5 
-      table
-        caption Leyenda de la tabla
-        thead
-          tr
-            th.encabezado-oscuro Dimensiones
-            <th colspan="3" class="encabezado-claro"> Variables </th>
-        tbody
-          tr
-            td Celda 1
-            td Celda 2
-            td Celda 3
-            td Celda 4
-          tr
-            td Celda 1
-            <td colspan="1"> Celda 2 </td>
-            <td colspan="1"> Celda 2 </td>
+    figure.mb-5
+          img(src='@/assets/curso/img29.svg', alt='Texto que describa la imagen')
+          figcaption Estructura de la escala de calificación.
     figure.mb-5
           img(src='@/assets/curso/img28.jpg', alt='Texto que describa la imagen')
     p.mb-3 Los dos (2) niveles de calificación comprenden dos procesos de agregación: 
