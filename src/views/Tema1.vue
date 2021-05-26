@@ -14,16 +14,16 @@
       .titulo-principal__numero
         .h3 1
       .h3 Proceso de autoevaluación
-    .row.mb-2
+    .row.mb-5
       .col-lg-6
-        p Una de las herramientas que permite determinar un diagnóstico claro de procesos y procedimientos institucionales en los diferentes servicios es la autoevaluación, 
-          b la cual determina los parámetros para la creación y aplicaciones de planes de mejora logrando siempre la excelencia institucional.
-          b-none  En el desarrollo del proceso de autoevaluación es importante reconocer cada grupo de estándares para poder precisar durante la aplicación de la herramienta si cumple o no y si su aplicabilidad, partiendo de los servicios que tenga habilitados para la prestación de los servicios de salud.
+        p En el desarrollo del proceso de autoevaluación es importante reconocer cada grupo de estándares para poder precisar durante la aplicación de la herramienta si cumple o no y su aplicabilidad, partiendo de los servicios que tenga habilitados para la prestación de los servicios de salud.
+          br
+          br
+          |En la revisión se hará énfasis en la acreditación de Instituciones prestadoras de salud (IPS) que prestan servicios ambulatorios y hospitalarios ya que se aplicarán los estándares encontrados en el “manual de acreditación en salud ambulatorio y hospitalario de Colombia” que encuentra en el material de apoyo, sin perder de vista que dependiendo de los servicios habilitados se aplicarán los estándares específicos del manual para cada uno de ellos.
       .col-lg-6
-        figure.mb-3
-          img(src='@/assets/curso/img2.jpg', alt='Texto que describa la imagen' style='width: 536px') 
-    p.mb-5 En la revisión se hará énfasis en la acreditación de Instituciones prestadoras de salud (IPS) que prestan servicios ambulatorios y hospitalarios ya que se aplicarán los estándares encontrados en el “manual de acreditación en salud ambulatorio y hospitalario de Colombia” que encuentra en el material de apoyo, sin perder de vista que dependiendo de los servicios habilitados se aplicarán los estándares específicos del manual para cada uno de ellos
-  
+        figure
+          img(src='@/assets/curso/img2.jpg', alt='Texto que describa la imagen' style='width: 650px') 
+    br
   
     #t_1_1.titulo-segundo
       .h4 1.1 Concepto
@@ -32,6 +32,9 @@
       br
       |Actualmente se cuenta con manuales para:
     ul.lista-ul.mb-4
+        li 
+          i.fas.fa-angle-right
+          | Manual de acreditación para empresas administradoras de planes de beneficios.
         li 
           i.fas.fa-angle-right
           | Manual de acreditación para los laboratorios clínicos.
@@ -55,10 +58,13 @@
       img(src='@/assets/curso/img4.svg', alt='Texto que describa la imagen')
       figcaption Mapa de procesos habilitación.
 
-  
+    br.
+    br.
     #t_1_2.titulo-segundo
       .h4 1.2 Metodologías para la autoevaluación
-    p.mb-5 Antes de realizar la autoevaluación es necesario reconocer el ciclo de la acreditación y apropiar cada uno de los pasos que deben realizar las instituciones que van a iniciar el proceso de acreditación en salud. En la siguiente gráfica, puede analizar dicho ciclo.
+    p.mb-5 Antes de realizar la autoevaluación es necesario reconocer el ciclo de la acreditación y apropiar cada uno de los pasos que deben realizar las instituciones que van a iniciar el proceso de 
+      b Acreditación en Salud. 
+      b-none En la siguiente gráfica, puede analizar dicho ciclo.
     figure.mb-5
       img(src='@/assets/curso/img5.svg', alt='Texto que describa la imagen')
       figcaption Ciclo de la acreditación.
@@ -85,11 +91,11 @@
             td.td
               p 
                 b Enfoque Sistémico: 
-                  b-none ejercicio de aplicación disciplinado que abarca todos los procesos y el contenido del estándar; que hace una visión de conjunto de la institución; que contempla un ciclo PHVA
+                b-none ejercicio de aplicación disciplinado que abarca todos los procesos y el contenido del estándar; que hace una visión de conjunto de la institución; que contempla un ciclo PHVA
             td.td El enfoque es esporádico, no está presente en todos los servicios o procesos, no es sistémico y no se relaciona con el direccionamiento estratégico.
             td.td Comienzo de un enfoque sistémico para los propósitos básicos del estándar y empieza a estar presente en algunos servicios o procesos. El enfoque y los procesos a través de los cuales se despliega está documentado.
             td.td El enfoque es sistémico, alcanzable para lograr los propósitos de estándar que se desea evaluar en procesos clave.
-            td.td El enfoque es sistémico tiene buen grado de integración que responde a todos los propósitos del estándar en la mayoría de los procesos. Relacionado con el direccionamiento estratégico.
+            td.td El enfoque  sistémico tiene buen grado de integración que responde a todos los propósitos del estándar en la mayoría de los procesos. Relacionado con el direccionamiento estratégico.
             td.td El enfoque es explícito y se aplica de manera organizada en todos los procesos, responde a los distintos criterios del estándar y está relacionado con el direccionamiento estratégico.
           tr
             td.td 
@@ -128,7 +134,7 @@
           tr
             td.td Despliegue al cliente interno y/o externo (según la naturaleza y propósito del estándar).
             td.td El enfoque no se despliega hacia los clientes.
-            td.td Hay evidencias de despliegue a unos pocos clientes pero éste no es consistente.
+            td.td Hay evidencias de despliegue a unos pocos clientes pero este no es consistente.
             td.td Hay evidencias de implantación parcial del enfoque tanto en clientes internos como externos con un grado mínimo de consistencia.
             td.td El enfoque se despliega a la mayoría de los usuarios y es medianamente consistente.
             td.td El enfoque se despliega a la totalidad de los usuarios y es totalmente consistente.
@@ -194,21 +200,23 @@
               .h5.mb-0 Guía práctica - Autoevaluación en salud.
               p En el material complementario, puede revisar la guía práctica de preparación para la autoevaluación en salud para la aplicación de los estándares de acreditación.
             .col-sm-auto
-              a.boton.boton--c(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.boton--c(:href="('https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/CA/Guia-de-preparacion-para-acreditacion.pdf')" target="_blank")
                 span Ir a Material coplementario 
                 i.fas.fa-file-download
+    br
+    br
     #t_1_3.titulo-segundo
       .h4 1.3 Herramientas para la autoevaluación
     .row
       .col-lg-6 
-        p Según la Ruta Crítica, la Institución que se va acreditar determina una planeación en la cual hay que tener en cuenta, los recursos, la agenda de reuniones para la preparación de la autoevaluación, lo formatos necesarios, los equipos, las listas de chequeo de los estándares correspondientes, entre otros.
+        p Según la Ruta Crítica, la Institución que se va acreditar determina una planeación en la cual hay que tener en cuenta: los recursos, la agenda de reuniones para la preparación de la autoevaluación, los formatos necesarios, los equipos, las listas de chequeo de los estándares correspondientes, entre otros.
           br
           br
           |En el material complementario puede ubicar los links para obtener los formatos que se trabajan en este proceso: ruta crítica, guía práctica de preparación para la autoevaluación en salud, formatos de autoevaluación de la entidad acreditadora, sistema de reporte de seguridad (incidentes eventos adversos) y análisis, en la unidad de cuidados intensivos, paciente trazador.
       .col-lg-6 
         figure.mb-3
           img(src='@/assets/curso/img8.jpg', alt='Texto que describa la imagen ' style='width: 536px')
-    p.mb-5 Otros criterios para seleccionar un paciente y hacer el trazador en los servicios de hospitalización, son: paciente que lleve más de 5 días hospitalizado, paciente que haya sido atendido en tres (3) o más servicios, paciente con comorbilidades, pacientes críticos, paciente con una de las primeras causas de morbilidad de la institución y del servicio, entre otras. Se puede adaptar un formato donde incluya y priorice estándares asistenciales y criterios, siguiendo el proceso y flujo de atención:
+    p.mb-5 Otros criterios para seleccionar un paciente y hacer el trazador en los servicios de hospitalización, son: paciente que lleve más de cinco (5) días hospitalizado, paciente que haya sido atendido en tres (3) o más servicios, paciente con comorbilidades, pacientes críticos, paciente con una de las primeras causas de morbilidad de la institución y del servicio, entre otras. Se puede adaptar un formato donde incluya y priorice estándares asistenciales y criterios, siguiendo el proceso y flujo de atención:
     .row.mb-5
       .col-lg-3
         .tarjeta-Avatar.mb-4
@@ -302,7 +310,8 @@
           .h2.mb-0 Asuma el reto
           p.pe-5 Identifique procesos, servicios o áreas con brechas de mejoramiento, realice plan de referenciación interna o externa, verifique experiencias exitosas que puedan ser adaptadas y adoptadas en la institución, impleméntelas y evalúe resultados.
 
-  
+    br
+    br
     #t_1_4.titulo-segundo
       .h4 1.4. Abordaje de los estándares
     p.mb-5 En la siguiente figura, puede analizar el grupo de estándares del Manual de acreditación en salud ambulatorio y hospitalario.
@@ -322,7 +331,7 @@
             img(src='@/assets/curso/img21.svg', alt='Texto que describa la imagen').m-auto.me-5
             .recuadro_texto_
               .h5 Gerencia de la Información
-              p Se enfoca en la integración de todas las áreas asistenciales y administrativas en relación con la información clínica y administrativa y su uso para la toma de decisiones en cualquier nivel de la organización
+              p Se enfoca en la integración de todas las áreas asistenciales y administrativas en relación con la información clínica y administrativa y su uso para la toma de decisiones en cualquier nivel de la organización.
         .contenedor
           hr.hr.mx-auto
           .recuadro_imagen.px-5
@@ -362,17 +371,18 @@
         | https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PSA/manual-acreditacion-salud-ambulatorio.pdf
     .row.mb-5
       .col-lg-6
-        p El equipo de autoevaluación e integrantes asignados deben iniciar la lectura del total del grupo de estándares correspondiente, para entender la globalidad y facilitar el proceso de autoevaluación y auto calificación posterior del estándar individual.
+        p El equipo de autoevaluación de integrantes asignados deben iniciar la lectura del total del grupo de estándares correspondiente, para entender la globalidad y facilitar el proceso de autoevaluación y autocalificación posterior del estándar individual.
           br
           br
           |En caso necesario debe buscar aclaración a través de los miembros del equipo o el instructor, quien le guiará según pertinencia.
           br
           br
-          |Es necesario que se consulte en el material complementario los conceptos y definiciones requeridos para la aplicación del Manual de Acreditación en Salud Ambulatorio y Hospitalario de Colombia Versión 3.1. 
+          |Es necesario que se consulte en el material complementario los conceptos y definiciones requeridos para la aplicación del 
+          b dManual de Acreditación en Salud Ambulatorio y Hospitalario de Colombia Versión 3.1. 
       .col-lg-6
         figure.mb-5
           img(src='@/assets/curso/img26.jpg', alt='Texto que describa la imagen' style='width: 536px' )
-    .h5 1.4.1 Datos cualitativos
+    .h5 Datos cualitativos
     p.mb-5 Una vez haya abordado los estándares y aclarado el significado de cada uno, registre las fortalezas que el equipo considere que se relacionan. La redacción de las fortalezas debe ser guiada por el equipo y debe centrarse en la declaración de cada estándar individual.
       br
       br
@@ -380,20 +390,20 @@
     .row.mb-5
       .col-lg-6
         figure
-          img(src='@/assets/curso/img27.jpg', alt='Texto que describa la imagen' style='width: 536px' ).m-auto
+          img(src='@/assets/curso/img27.jpg', alt='Texto que describa la imagen' style='width: 536px' )
       .col-lg-6
         p Posteriormente, se deben redactar todas las oportunidades de mejoramiento (debilidades) del servicio e institución frente al estándar. El texto de la declaración del estándar individual es la guía para el equipo de autoevaluación.
           br
           br
           |La respuesta a las oportunidades de mejora consiste en definir acciones de mejoramiento. Estas acciones de mejora serán fuente para el posterior plan de mejoramiento del grupo de estándares y del plan de mejoramiento institucional.
-    .h5 1.4.2 Indicadores
+    .h5 Indicadores
     p.mb-5 Los indicadores se utilizan para medir y monitorear el desempeño institucional y la calidad. Las organizaciones cuentan con indicadores específicos para los procesos y servicios y los contemplados en los estándares.
       br
       br
       |Identifique, defina y describa los indicadores administrativos, asistenciales, clínicos y de calidad que le aplican.
       br
       |Consulte los indicadores obligatorios de la Resolución 256 de 2016, así como los solicitados por la entidad acreditadora en el material complementario.
-    .h5 1.4.3 Datos cuantitativos y calificación
+    .h5 Datos cuantitativos y calificación
     p.mb-5 El proceso de calificación de los estándares debe ser explícito y desarrollarse integralmente, para verificar y calificar el grado del logro alcanzado.
       br
       br
@@ -476,12 +486,12 @@
                 br
                 |Así mismo, el formato del Informe de autoevaluación estándares IPS hospitalarias – Parte 1. Perfil de la institución – Visita de otorgamiento. Como también, el formato para el Informe de autoevaluación Visita de otorgamiento acreditación en salud Estándares IPS hospitalarias – Parte 2.
             .col-sm-auto
-              a.boton.boton--c(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.boton--c(:href="('https://acreditacionensalud.org.co/ips-hospitalarias/')" target="_blank")
                 span Ir a Material coplementario 
                 i.fas.fa-file-download
   
   
-    .h5 1.4.4 Interpretación
+    .h5 Interpretación
     p.mb-5 Con base en la siguiente tabla, se debe registrar el puntaje (1 - 500) para cada grupo de estándares, teniendo en cuenta la siguiente ponderación y rangos:
     
     table.mb-5
@@ -525,7 +535,7 @@
           td 76 – 88
           td 42
         tr.text-center
-          td Gerencia.
+          td Gerencia
           td 89 – 103
           td 25
         tr.text-center
@@ -598,9 +608,9 @@
         tr
           <td rowspan="3">Acreditado (en una escala de 500 puntos, si obtiene 200 y 279 puntos).</td>
         tr
-          <td colspan="2" ><b>Regla 1:</b>más de 279 puntos por no cumplir la totalidad de las exigencias de las categorías superiores.</td>
+          <td colspan="2" ><b>Regla 1:</b> más de 279 puntos por no cumplir la totalidad de las exigencias de las categorías superiores.</td>
         tr
-          <td colspan="2"  class="encabezado-azul-claro"> <b>NOTA:</b> la acreditación condicionada no le permite a la institución disfrutar de ninguno de los incentivos para las instituciones acreditadas y solamente implica que la institución dispondrá de un período adicional de diez (10) meses para mejorar su desempeño y alcanzar la categoría de acreditado. Si esto no ocurriere, se le asignará la categoría de “No Acreditado”.</td>
+          <td colspan="2"  class="encabezado-azul-claro"> <b>NOTA:</b> la acreditación condicionada no le permite a la institución disfrutar de ninguno de los incentivos para las instituciones acreditadas y solamente implica que la institución dispondrá de un período adicional de diez (10) meses para mejorar su desempeño y alcanzar la categoría de acreditado. Si esto no ocurriera, se le asignará la categoría de “No Acreditado”.</td>
       tbody
         tr
           <td rowspan="2">No Acreditado.</td>
@@ -616,7 +626,7 @@
             b-none Consultar la Resolución 2082 de 2014.
     
     #t_1_5.titulo-segundo
-      .h4 1.5. Integralidad con equipos
+      .h4 1.5 Integralidad con equipos
     p.mb-5 Para la acreditación es muy importante integrar a todos los niveles de la organización en la autoevaluación que se realiza previa a la evaluación de los estándares de calidad, de esta manera se trabaja en equipo para identificar oportunidades de mejora (debilidades) y fortalezas. 
       br
       br
@@ -633,7 +643,7 @@
               .h5.mb-0 Formato para el Informe de autoevaluación
               p Para mayor información, ver páginas 9 a 16 del Formato para el Informe de autoevaluación Visita de otorgamiento acreditación en salud Estándares IPS  hospitalarias – Parte 2.
             .col-sm-auto
-              a.boton.boton--c(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.boton--c(:href="('/downloads/F-PS-048-INFORME-DE-AUTOEVALUACIÓN-VISITA-DE-OTORGAMIENTO-VERSIÓN-3.1-PARTE-2-IPS-HOSPITALARIA.docx')" target="_blank")
                 span Ir a Material coplementario 
                 i.fas.fa-file-download
     p.mb-5 También se debe establecer el equipo líder, que apoye y realice el análisis de los resultados previos y direccione el proceso.     

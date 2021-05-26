@@ -111,13 +111,8 @@ export default {
           'Cesar Roberto Ocaña Poveda',
           'Jessica Lozano',
         ],
-        cargo: [
-          'Expertos temáticos.',
-          'Asesor oficina calidad.',
-          'Asesor oficina calidad.',
-        ],
+        cargo: ['Expertos temáticos.', 'Asesores oficina calidad.'],
         centro: 'Ministerio de Salud y Protección Social.',
-        regional: 'Ministerio de Salud',
       },
       {
         nombre: ['María Fernanda Moreno Brand', 'Viviana Ruíz Vergara'],
@@ -212,14 +207,14 @@ export default {
       texto: 'Indicadores de acreditación y habilitación ',
       tipo: 'Guía',
       link:
-        'http://acreditacionensalud.org.co/wp-content/uploads/2020/07/F-PS-055%20SOLICITUD%20DE%20INFORMACI%C3%93N%20E%20INDICADORES%20INSTITUCIONALES.xlsm',
+        'downloads/F-PS-055 SOLICITUD_DE_INFORMACIÓN_E_INDICADORES_INSTITUCIONALES.xlsm',
     },
     {
       texto: 'Herramientas para la autoevaluación.',
       tipo: 'Documento proceso.',
-      link:
-        'https://www.acreditacionensalud.org.co/wp-content/uploads/2020/07/Ruta-cr%C3%ADtica-V8-marzo-2018.pdf',
+      link: 'downloads/Ruta-crítica-V8-marzo-2018.pdf',
     },
+    //revisar enlace
     {
       texto: 'Metodologías para la autoevaluación.',
       tipo: 'Guía',
