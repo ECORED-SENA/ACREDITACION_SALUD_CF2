@@ -218,8 +218,7 @@ export default {
     {
       texto: 'Metodologías para la autoevaluación.',
       tipo: 'Guía',
-      link:
-        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/CA/Guia-de-preparacion-para-acreditacion.pdf',
+      link: 'downloads/Guia-de-preparacion-para-acreditacion.pdf',
     },
     {
       texto: 'Herramientas para la autoevaluación.',
@@ -234,38 +233,32 @@ export default {
     {
       texto: 'Herramientas para la autoevaluación.',
       tipo: 'Guía',
-      link:
-        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/CA/seguridad-unidad-cuidados-intensivos.pdf',
+      link: 'downloads/seguridad-unidad-cuidados-intensivos.pdf',
     },
     {
       texto: 'Herramientas para la autoevaluación.',
       tipo: 'Guía',
-      link:
-        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/CA/Monitorear-aspectos-claves-seguridad-paciente.pdf',
+      link: 'downloads/Monitorear-aspectos-claves-seguridad-paciente.pdf',
     },
     {
       texto: 'Datos cuantitativos y calificación ',
       tipo: 'Guía',
-      link:
-        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/CA/Guia-de-preparacion-para-acreditacion.pdf',
+      link: 'downloads/Guia-de-preparacion-para-acreditacion.pdf',
     },
     {
       texto: 'Indicadores ',
       tipo: 'Resolución',
-      link:
-        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-0256-2016.pdf',
+      link: 'downloads/resolucion-0256-2016.pdf',
     },
     {
       texto: 'Autoevaluación',
       tipo: 'Guía',
-      link:
-        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/CA/Guia-de-preparacion-para-acreditacion.pdf',
+      link: 'downloads/Guia-de-preparacion-para-acreditacion.pdf',
     },
     {
       texto: 'Interpretación.',
       tipo: 'Resolución',
-      link:
-        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Resolucion-2082-de-2014.pdf',
+      link: 'downloads/Resolucion-2082-de-2014.pdf',
     },
     {
       texto: 'Integralidad con equipos.',
