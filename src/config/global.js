@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Proceso de autoevaluación.',
+    componenteFormativo: 'Proceso de autoevaluación',
     descripcionCurso:
       'El presente contenido pedagógico está dirigido a la apropiación del conocimiento para la autoevaluación de los estándares de acreditación,   aplicando las herramientas colaborativas en cada equipo institucional que participará en el proceso, abordando el ciclo de mejora continua incluyendo las dimensiones de: enfoque, implementación, resultados, evaluación cualitativa y cuantitativa;  implementación de mejoras y el cierre de brechas en los hallazgos, su articulación con metas, indicadores, auto calificación y referencia interna entre procesos - servicios y  competencia. ',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
@@ -106,48 +106,32 @@ export default {
         regional: 'Regional Santander',
       },
       {
-        nombre: 'Astrid Lili Puerta',
-        cargo: 'Experta temática',
-        centro: 'Centro Agropecuario de Buga',
-        regional: 'Regional valle',
+        nombre: [
+          'Néstor Omar Correa Preciado',
+          'Cesar Roberto Ocaña Poveda',
+          'Jessica Lozano',
+        ],
+        cargo: [
+          'Expertos temáticos.',
+          'Asesor oficina calidad.',
+          'Asesor oficina calidad.',
+        ],
+        centro: 'Ministerio de Salud y Protección Social.',
+        regional: 'Ministerio de Salud',
       },
       {
-        nombre: 'Javier Enrique Santana',
-        cargo: 'Experto temático',
-        centro: 'Centro de Gestión Industrial',
-        regional: 'Regional Distrito Capital',
+        nombre: ['María Fernanda Moreno Brand', 'Viviana Ruíz Vergara'],
+        cargo: 'Profesionales Especializados SENA',
+        centro: 'Centro de Formación de Talento Humano en Salud',
       },
       {
-        nombre: 'Michael Andrés Cortés Caro',
-        cargo: 'Experto temático',
-        centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
-      },
-      {
-        nombre: 'Mauricio Jiménez Fajardo',
-        cargo: 'Experto temático',
-        centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
-      },
-      {
-        nombre: 'Manuel Alejandro Garzón Cárdenas',
-        cargo: 'Experto temático',
-        centro: 'Deutsche Gesellschaft für',
-        regional: 'Internationale Zusammenarbeit (GIZ)',
-      },
-      {
-        nombre: 'Liliana Victoria Morales Gualdrón',
+        nombre: 'Alix Cecilia Chinchilla Rueda',
         cargo: 'Diseñador instruccional',
-        centro: 'Centro para la Industria y la Comunicación Gráfica',
-        regional: 'Regional Distrito Capital',
+        centro: 'Centro de Gestión Industrial',
       },
       {
-        nombre: 'Carlos Andrés Rodríguez',
-        cargo: 'Evaluador instruccional',
-        centro: 'Centro de Diseño y Metrología',
-        regional: 'Regional Distrito Capital',
-      },
-      {
-        nombre: 'Julieth Paola Vital López',
-        cargo: 'Revisora de estilo',
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
         centro: 'Centro para la Industria de la Comunicación Gráfica',
         regional: 'Regional Distrito Capital',
       },
@@ -162,12 +146,16 @@ export default {
         cargo: 'Soporte organizacional',
       },
       {
-        nombre: ['Adriana Rincón Avendaño', 'Eulises Orduz Amezquita'],
+        nombre: ['Yuly Andrea Rey Quiñonez'],
         cargo: 'Diseño web y Producción Audiovisual',
       },
       {
-        nombre: 'Edward Leonardo Pico Cabra',
+        nombre: 'Camilo Andrés Bolaño Rey',
         cargo: 'Desarrollo Front-End',
+      },
+      {
+        nombre: 'María Isabel Román Rueda',
+        cargo: 'Validación de diseño y contenido ',
       },
       {
         centro: 'Centro Industrial del Diseño y la Manufactura',
@@ -176,8 +164,8 @@ export default {
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Brayan Stiven Pinto Diaz',
-        cargo: ['Desarrollo front-end', 'Validación de recursos'],
+        nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: ['Validación y vinculación en plataforma LMS'],
         centro: 'Centro de comercio y servicios',
         regional: 'Regional Tolima',
       },
@@ -229,8 +217,8 @@ export default {
     {
       texto: 'Herramientas para la autoevaluación.',
       tipo: 'Documento proceso.',
-      descarga:
-        'https://www.acreditacionensalud.org.co//wp-content/uploads/2020/07/Ruta-cr%C3%ADtica-V8-marzo-2018.pdf',
+      link:
+        'https://www.acreditacionensalud.org.co/wp-content/uploads/2020/07/Ruta-cr%C3%ADtica-V8-marzo-2018.pdf',
     },
     {
       texto: 'Metodologías para la autoevaluación.',
@@ -241,7 +229,7 @@ export default {
     {
       texto: 'Herramientas para la autoevaluación.',
       tipo: 'Guía',
-      descarga: 'https://acreditacionensalud.org.co/ips-hospitalarias/',
+      link: 'https://acreditacionensalud.org.co/ips-hospitalarias/',
     },
     {
       texto: 'Herramientas para la autoevaluación.',
@@ -287,8 +275,8 @@ export default {
     {
       texto: 'Integralidad con equipos.',
       tipo: 'Formato',
-      link:
-        'http://acreditacionensalud.org.co/wp-content/uploads/2020/07/F-PS-048-INFORME-DE-AUTOEVALUACI%C3%93N-VISITA-DE-OTORGAMIENTO-VERSI%C3%93N-3.1-PARTE-2-IPS-HOSPITALARIA.docx',
+      descarga:
+        '/downloads/F-PS-048-INFORME-DE-AUTOEVALUACIÓN-VISITA-DE-OTORGAMIENTO-VERSIÓN-3.1-PARTE-2-IPS-HOSPITALARIA.docx',
     },
   ],
 }
