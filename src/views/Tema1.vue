@@ -200,7 +200,7 @@
               .h5.mb-0 Guía práctica - Autoevaluación en salud.
               p En el material complementario, puede revisar la guía práctica de preparación para la autoevaluación en salud para la aplicación de los estándares de acreditación.
             .col-sm-auto
-              a.boton.boton--c(:href="('https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/CA/Guia-de-preparacion-para-acreditacion.pdf')" target="_blank")
+              a.boton.boton--c(:href="obtenerLink('downloads/Guia-de-preparacion-para-acreditacion.pdf')" target="_blank")
                 span Ir a Material coplementario 
                 i.fas.fa-file-download
     br
@@ -367,7 +367,7 @@
           hr.hr.mx-auto
     figcaption.mb-3 Grupo de estándares
     p.mb-5.fst-italic Nota: Tomado de
-      a.link(href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PSA/manual-acreditacion-salud-ambulatorio.pdf" target="_blank") 
+      a.link(:href="obtenerLink('downloads/manual-acreditacion-salud-ambulatorio.pdf')" target="_blank") 
         | https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PSA/manual-acreditacion-salud-ambulatorio.pdf
     .row.mb-5
       .col-lg-6
@@ -378,7 +378,8 @@
           br
           br
           |Es necesario que se consulte en el material complementario los conceptos y definiciones requeridos para la aplicación del 
-          b dManual de Acreditación en Salud Ambulatorio y Hospitalario de Colombia Versión 3.1. 
+          a.link(:href="obtenerLink('downloads/manual-acreditacion-salud-ambulatorio.pdf')" target="_blank") 
+            b Manual de Acreditación en Salud Ambulatorio y Hospitalario de Colombia Versión 3.1. 
       .col-lg-6
         figure.mb-5
           img(src='@/assets/curso/img26.jpg', alt='Texto que describa la imagen' style='width: 536px' )
@@ -617,7 +618,7 @@
         tr
           <td colspan="2" ><b>Regla:</b> las instituciones que no hayan obtenido la acreditación luego de ser evaluadas por el ente acreditador, solo pueden aplicar de nuevo al proceso de acreditación después de cumplido un año de haber sido evaluadas.</td>
     p.mb-5 Consultar la Resolución 2082 de 2014, por la cual se dictan disposiciones para la operatividad del Sistema Único de Acreditación en Salud en material complementario se relaciona el enlace de consulta.
-    a.anexo.mb-5.mb-lg-5(href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Resolucion-2082-de-2014.pdf" target="_blank")
+    a.anexo.mb-5.mb-lg-5(:href="obtenerLink('downloads/Resolucion-2082-de-2014.pdf')" target="_blank")
         .anexo__icono
           img(src="@/assets/template/icono-link.svg")
         .anexo__texto
@@ -643,7 +644,7 @@
               .h5.mb-0 Formato para el Informe de autoevaluación
               p Para mayor información, ver páginas 9 a 16 del Formato para el Informe de autoevaluación Visita de otorgamiento acreditación en salud Estándares IPS  hospitalarias – Parte 2.
             .col-sm-auto
-              a.boton.boton--c(:href="('/downloads/F-PS-048-INFORME-DE-AUTOEVALUACIÓN-VISITA-DE-OTORGAMIENTO-VERSIÓN-3.1-PARTE-2-IPS-HOSPITALARIA.docx')" target="_blank")
+              a.boton.boton--c(:href="obtenerLink('/downloads/F-PS-048-INFORME-DE-AUTOEVALUACIÓN-VISITA-DE-OTORGAMIENTO-VERSIÓN-3.1-PARTE-2-IPS-HOSPITALARIA.docx')" target="_blank")
                 span Ir a Material coplementario 
                 i.fas.fa-file-download
     p.mb-5 También se debe establecer el equipo líder, que apoye y realice el análisis de los resultados previos y direccione el proceso.     
@@ -664,7 +665,7 @@
             .col-sm.mb-3.mb-sm-0
               p Proceso de autoevaluación 
             .col-auto
-              a.boton.boton--b(:href="obtenerLinck('/actividades/Ejecutable/story.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/Ejecutable/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
 </template>
