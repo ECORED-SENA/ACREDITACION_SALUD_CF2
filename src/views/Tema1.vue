@@ -664,7 +664,7 @@
             .col-sm.mb-3.mb-sm-0
               p Proceso de autoevaluación 
             .col-auto
-              a.boton.boton--b(:href="('/actividades/Ejecutable/story.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLinck('/actividades/Ejecutable/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
 </template>
