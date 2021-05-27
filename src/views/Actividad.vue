@@ -10,13 +10,14 @@
             img(src="@/assets/template/emparejamiento.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          .h4 Proceso de autoevaluación 
+          .h4 ACTIVIDAD DIDÁCTICA 
         p.mb-4 Apropiación de conocimientos en el desarrollo de la acreditación en salud 
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
+              p Proceso de autoevaluación 
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
+              a.boton.boton--b(:href="('/actividades/Ejecutable/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
 
