@@ -650,7 +650,23 @@
       br
       br
       |Se debe tener en cuenta la selección de los integrantes de cada equipo, la estructura y composición según los servicios habilitados, el apoyo por parte del equipo líder, plantear reglas claras en cuanto al funcionamiento, responsabilidad y los roles de sus miembros, para asegurar el éxito del cumplimiento de las tareas y alcanzar las metas en los tiempos propuestos. 
-  
+    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+        .tarjeta.tarjeta--azul.h-100.d-flex.align-items-center
+          figure
+            img(src="@/assets/template/emparejamiento.svg", alt="Texto que describa la imagen")
+      .col-12.col-md-8.col-lg-9
+        .titulo-segundo
+          .h4 ACTIVIDAD DIDÁCTICA 
+        p.mb-4 Apropiación de conocimientos en el desarrollo de la acreditación en salud 
+        .tarjeta.tarjeta--azul.p-3
+          .row.justify-content-around.align-items-center            
+            .col-sm.mb-3.mb-sm-0
+              p Proceso de autoevaluación 
+            .col-auto
+              a.boton.boton--b(:href="('/actividades/Ejecutable/story.html')" target="_blank")
+                span Realizar
+                i.fas.fa-puzzle-piece
 </template>
 
 <script></script>
