@@ -201,7 +201,7 @@
               p En el material complementario, puede revisar la guía práctica de preparación para la autoevaluación en salud para la aplicación de los estándares de acreditación.
             .col-sm-auto
               a.boton.boton--c(:href="obtenerLink('downloads/Guia-de-preparacion-para-acreditacion.pdf')" target="_blank")
-                span Ir a Material coplementario 
+                span Ir a Material complementario 
                 i.fas.fa-file-download
     br
     br
@@ -488,7 +488,7 @@
                 |Así mismo, el formato del Informe de autoevaluación estándares IPS hospitalarias – Parte 1. Perfil de la institución – Visita de otorgamiento. Como también, el formato para el Informe de autoevaluación Visita de otorgamiento acreditación en salud Estándares IPS hospitalarias – Parte 2.
             .col-sm-auto
               a.boton.boton--c(:href="('https://acreditacionensalud.org.co/ips-hospitalarias/')" target="_blank")
-                span Ir a Material coplementario 
+                span Ir a Material complementario 
                 i.fas.fa-file-download
   
   
@@ -645,7 +645,7 @@
               p Para mayor información, ver páginas 9 a 16 del Formato para el Informe de autoevaluación Visita de otorgamiento acreditación en salud Estándares IPS  hospitalarias – Parte 2.
             .col-sm-auto
               a.boton.boton--c(:href="obtenerLink('/downloads/F-PS-048-INFORME-DE-AUTOEVALUACIÓN-VISITA-DE-OTORGAMIENTO-VERSIÓN-3.1-PARTE-2-IPS-HOSPITALARIA.docx')" target="_blank")
-                span Ir a Material coplementario 
+                span Ir a Material complementario 
                 i.fas.fa-file-download
     p.mb-5 También se debe establecer el equipo líder, que apoye y realice el análisis de los resultados previos y direccione el proceso.     
       br
