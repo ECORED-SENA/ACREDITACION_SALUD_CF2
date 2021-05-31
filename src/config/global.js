@@ -35,7 +35,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Metodologías para la autoevaluación.',
+            titulo: 'Metodologías para la autoevaluación',
             hash: 't_1_2',
           },
           {
